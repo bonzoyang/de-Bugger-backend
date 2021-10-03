@@ -7,7 +7,7 @@ services:
         depends_on:
             - api
         ports:
-            - "80:80"
+            - "8100:8100"
         volumes:
             - ./web/conf.d:/etc/nginx/conf.d
     api:
@@ -16,9 +16,9 @@ services:
         links:
             - db
         ports:
-            - "8765:8765"
+            - "8150:8150"
         expose:
-            - 8765
+            - 8150
         working_dir: /api
         depends_on:
             - db
@@ -29,7 +29,7 @@ services:
         image: "postgres"
         container_name: "postgres"
         ports:
-            - "5432:5432"
+            - "8160:8160"
         env_file:
             - ./env/postgres.env
         volumes:
@@ -44,6 +44,6 @@ services:
         links:
           - db
         ports:
-          - "9999:80"
+          - "8200:80"
         depends_on:
           - db
