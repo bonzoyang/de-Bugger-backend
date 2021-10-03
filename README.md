@@ -1,9 +1,7 @@
 # de Bugger backend
 ### Web site
-  All you need is 
-  ![](https://i.imgur.com/ro2N4hy.png)
-  
-  [de Bugger](https://debugger.vercel.app/) 
+  ![](https://i.imgur.com/ro2N4hy.png). 
+  All you need is [de Bugger](https://debugger.vercel.app/) 
   
 ### before deployment 
 * \*\*note:\*\* 
