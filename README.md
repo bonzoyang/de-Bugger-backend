@@ -1,7 +1,7 @@
 # de Bugger backend
 ### Web site
   All you need is 
-  ![](https://imgur.com/ro2N4hy) 
+  ![](https://i.imgur.com/ro2N4hy.png)
   
   [de Bugger](https://debugger.vercel.app/) 
   
