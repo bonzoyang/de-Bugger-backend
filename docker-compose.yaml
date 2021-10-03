@@ -40,7 +40,7 @@ services:
         image: dpage/pgadmin4
         environment:
           - PGADMIN_DEFAULT_EMAIL=fakeuser@fake.url
-          - PGADMIN_DEFAULT_PASSWORD=fakepassword
+          - PGADMIN_DEFAULT_PASSWORD=pw2pgadmin
         links:
           - db
         ports:
